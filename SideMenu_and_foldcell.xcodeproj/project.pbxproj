@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1456DDCE4F4B866603FFF380 /* Pods_SideMenu_and_foldcell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C32DAB01D3A45C936288290 /* Pods_SideMenu_and_foldcell.framework */; };
+		BF0395511F5EF3D400971548 /* MakeSchedulePopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03954F1F5EF3D400971548 /* MakeSchedulePopViewController.swift */; };
+		BF0395521F5EF3D400971548 /* MakeSchedulePopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF0395501F5EF3D400971548 /* MakeSchedulePopViewController.xib */; };
 		BF0C35961F5C106E00492B8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C35951F5C106E00492B8D /* AppDelegate.swift */; };
 		BF0C35981F5C106E00492B8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C35971F5C106E00492B8D /* ViewController.swift */; };
 		BF0C359B1F5C106E00492B8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0C35991F5C106E00492B8D /* Main.storyboard */; };
 		BF0C359D1F5C106E00492B8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0C359C1F5C106E00492B8D /* Assets.xcassets */; };
 		BF0C35A01F5C106E00492B8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0C359E1F5C106E00492B8D /* LaunchScreen.storyboard */; };
+		BF0C35A81F5C12DF00492B8D /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C35A71F5C12DF00492B8D /* SideMenuTableViewController.swift */; };
+		BF0C35AA1F5C1B6D00492B8D /* InhertitedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C35A91F5C1B6D00492B8D /* InhertitedCell.swift */; };
+		BF0C35AC1F5E21AD00492B8D /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C35AB1F5E21AD00492B8D /* WeatherCell.swift */; };
+		BF99EFC41F5E3AF600929B58 /* ScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF99EFC31F5E3AF500929B58 /* ScheduleCell.swift */; };
+		BFCC35B51F5F875C00757673 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCC35B41F5F875C00757673 /* BaseViewController.swift */; };
+		BFCC35B71F5F9BEA00757673 /* PlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCC35B61F5F9BEA00757673 /* PlaceHolderTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C32DAB01D3A45C936288290 /* Pods_SideMenu_and_foldcell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SideMenu_and_foldcell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0AFFDA21E5E5AC2B3E1CDD /* Pods-SideMenu_and_foldcell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideMenu_and_foldcell.release.xcconfig"; path = "Pods/Target Support Files/Pods-SideMenu_and_foldcell/Pods-SideMenu_and_foldcell.release.xcconfig"; sourceTree = "<group>"; };
+		BF03954F1F5EF3D400971548 /* MakeSchedulePopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeSchedulePopViewController.swift; sourceTree = "<group>"; };
+		BF0395501F5EF3D400971548 /* MakeSchedulePopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MakeSchedulePopViewController.xib; sourceTree = "<group>"; };
 		BF0C35921F5C106E00492B8D /* SideMenu_and_foldcell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenu_and_foldcell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF0C35951F5C106E00492B8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF0C35971F5C106E00492B8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,13 @@
 		BF0C359C1F5C106E00492B8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF0C359F1F5C106E00492B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF0C35A11F5C106E00492B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0C35A71F5C12DF00492B8D /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		BF0C35A91F5C1B6D00492B8D /* InhertitedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InhertitedCell.swift; sourceTree = "<group>"; };
+		BF0C35AB1F5E21AD00492B8D /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		BF99EFC31F5E3AF500929B58 /* ScheduleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCell.swift; sourceTree = "<group>"; };
+		BFCC35B41F5F875C00757673 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BFCC35B61F5F9BEA00757673 /* PlaceHolderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolderTextView.swift; sourceTree = "<group>"; };
+		CB843BAFFC75B4945C6DC3B5 /* Pods-SideMenu_and_foldcell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideMenu_and_foldcell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SideMenu_and_foldcell/Pods-SideMenu_and_foldcell.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1456DDCE4F4B866603FFF380 /* Pods_SideMenu_and_foldcell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		106115FAF8BFB267490212F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C32DAB01D3A45C936288290 /* Pods_SideMenu_and_foldcell.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF0C35891F5C106E00492B8D = {
 			isa = PBXGroup;
 			children = (
 				BF0C35941F5C106E00492B8D /* SideMenu_and_foldcell */,
 				BF0C35931F5C106E00492B8D /* Products */,
+				C61089FE569303B882120278 /* Pods */,
+				106115FAF8BFB267490212F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +87,29 @@
 			children = (
 				BF0C35951F5C106E00492B8D /* AppDelegate.swift */,
 				BF0C35971F5C106E00492B8D /* ViewController.swift */,
+				BF03954F1F5EF3D400971548 /* MakeSchedulePopViewController.swift */,
+				BF0395501F5EF3D400971548 /* MakeSchedulePopViewController.xib */,
+				BFCC35B61F5F9BEA00757673 /* PlaceHolderTextView.swift */,
+				BF0C35A91F5C1B6D00492B8D /* InhertitedCell.swift */,
 				BF0C35991F5C106E00492B8D /* Main.storyboard */,
+				BFCC35B41F5F875C00757673 /* BaseViewController.swift */,
+				BF0C35AB1F5E21AD00492B8D /* WeatherCell.swift */,
+				BF99EFC31F5E3AF500929B58 /* ScheduleCell.swift */,
+				BF0C35A71F5C12DF00492B8D /* SideMenuTableViewController.swift */,
 				BF0C359C1F5C106E00492B8D /* Assets.xcassets */,
 				BF0C359E1F5C106E00492B8D /* LaunchScreen.storyboard */,
 				BF0C35A11F5C106E00492B8D /* Info.plist */,
 			);
 			path = SideMenu_and_foldcell;
+			sourceTree = "<group>";
+		};
+		C61089FE569303B882120278 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB843BAFFC75B4945C6DC3B5 /* Pods-SideMenu_and_foldcell.debug.xcconfig */,
+				9F0AFFDA21E5E5AC2B3E1CDD /* Pods-SideMenu_and_foldcell.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF0C35A41F5C106E00492B8D /* Build configuration list for PBXNativeTarget "SideMenu_and_foldcell" */;
 			buildPhases = (
+				FAC0722F74EFB9F15F2F3DA2 /* [CP] Check Pods Manifest.lock */,
 				BF0C358E1F5C106E00492B8D /* Sources */,
 				BF0C358F1F5C106E00492B8D /* Frameworks */,
 				BF0C35901F5C106E00492B8D /* Resources */,
+				7EA766C3A107AB4F7C018963 /* [CP] Embed Pods Frameworks */,
+				FD98C5EC88B4D5246DE349CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF0C35A01F5C106E00492B8D /* LaunchScreen.storyboard in Resources */,
+				BF0395521F5EF3D400971548 /* MakeSchedulePopViewController.xib in Resources */,
 				BF0C359D1F5C106E00492B8D /* Assets.xcassets in Resources */,
 				BF0C359B1F5C106E00492B8D /* Main.storyboard in Resources */,
 			);
@@ -131,13 +183,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7EA766C3A107AB4F7C018963 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SideMenu_and_foldcell/Pods-SideMenu_and_foldcell-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FoldingCell/FoldingCell.framework",
+				"${BUILT_PRODUCTS_DIR}/LGSideMenuController/LGSideMenuController.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FoldingCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGSideMenuController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SideMenu_and_foldcell/Pods-SideMenu_and_foldcell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAC0722F74EFB9F15F2F3DA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SideMenu_and_foldcell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD98C5EC88B4D5246DE349CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SideMenu_and_foldcell/Pods-SideMenu_and_foldcell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF0C358E1F5C106E00492B8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BF0C35981F5C106E00492B8D /* ViewController.swift in Sources */,
+				BF0C35A81F5C12DF00492B8D /* SideMenuTableViewController.swift in Sources */,
+				BF0395511F5EF3D400971548 /* MakeSchedulePopViewController.swift in Sources */,
+				BF0C35AC1F5E21AD00492B8D /* WeatherCell.swift in Sources */,
 				BF0C35961F5C106E00492B8D /* AppDelegate.swift in Sources */,
+				BFCC35B51F5F875C00757673 /* BaseViewController.swift in Sources */,
+				BF99EFC41F5E3AF600929B58 /* ScheduleCell.swift in Sources */,
+				BFCC35B71F5F9BEA00757673 /* PlaceHolderTextView.swift in Sources */,
+				BF0C35AA1F5C1B6D00492B8D /* InhertitedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +395,7 @@
 		};
 		BF0C35A51F5C106E00492B8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB843BAFFC75B4945C6DC3B5 /* Pods-SideMenu_and_foldcell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +411,7 @@
 		};
 		BF0C35A61F5C106E00492B8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0AFFDA21E5E5AC2B3E1CDD /* Pods-SideMenu_and_foldcell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

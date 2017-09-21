@@ -1,0 +1,6 @@
+framework module Pods_SideMenu_and_foldcell {
+  umbrella header "Pods-SideMenu_and_foldcell-umbrella.h"
+
+  export *
+  module * { export * }
+}
